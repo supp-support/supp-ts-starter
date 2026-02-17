@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Supp JS Starter",
   description:
-    "Example project using the supp-js SDK — AI-powered customer support classification and routing",
+    "Example project using the supp-ts SDK — AI-powered customer support classification and routing",
 };
 
 export default function RootLayout({

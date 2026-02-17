@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { SuppError } from "supp-js";
+import { SuppError } from "supp-ts";
 import { getSupp } from "@/lib/supp";
 
 export async function GET() {

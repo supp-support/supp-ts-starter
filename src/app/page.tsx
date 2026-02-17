@@ -111,11 +111,11 @@ export default function Home() {
   return (
     <div style={styles.container}>
       <header style={styles.header}>
-        <div style={styles.badge}>supp-js-starter</div>
+        <div style={styles.badge}>supp-ts-starter</div>
         <h1 style={styles.title}>Supp SDK Examples</h1>
         <p style={styles.subtitle}>
           Interactive examples using the{" "}
-          <a href="https://www.npmjs.com/package/supp-js">supp-js</a> SDK.
+          <a href="https://www.npmjs.com/package/supp-ts">supp-ts</a> SDK.
           Each example calls a Next.js API route that uses the SDK server-side.
         </p>
       </header>
@@ -124,7 +124,7 @@ export default function Home() {
       <Section
         title="Classify Message"
         description="Classify a customer message into one of 315 intents. Returns intent, confidence, and suggested action."
-        code={`import { Supp } from "supp-js";
+        code={`import { Supp } from "supp-ts";
 
 const supp = new Supp(process.env.SUPP_SECRET_KEY);
 
@@ -301,9 +301,9 @@ import Script from "next/script";
       <footer style={styles.footer}>
         <a href="https://supp.support">supp.support</a>
         {" · "}
-        <a href="https://www.npmjs.com/package/supp-js">npm</a>
+        <a href="https://www.npmjs.com/package/supp-ts">npm</a>
         {" · "}
-        <a href="https://github.com/creayo/supp-js">github</a>
+        <a href="https://github.com/supp-support/supp-ts">github</a>
       </footer>
     </div>
   );

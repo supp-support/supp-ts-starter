@@ -1,4 +1,4 @@
-import { Supp } from "supp-js";
+import { Supp } from "supp-ts";
 
 let _supp: Supp | null = null;
 

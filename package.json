@@ -1,8 +1,8 @@
 {
-  "name": "supp-js-starter",
+  "name": "supp-ts-starter",
   "version": "1.0.0",
   "private": true,
-  "description": "Example project using the supp-js SDK — AI-powered customer support classification and routing",
+  "description": "Example project using the supp-ts SDK — AI-powered customer support classification and routing",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +12,7 @@
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "supp-js": "file:../supp-js"
+    "supp-ts": "file:../supp-ts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

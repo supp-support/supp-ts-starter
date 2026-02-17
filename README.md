@@ -1,6 +1,6 @@
-# supp-js-starter
+# supp-ts-starter
 
-A Next.js example project demonstrating the [supp-js](https://www.npmjs.com/package/supp-js) SDK — AI-powered customer support classification and routing.
+A Next.js example project demonstrating the [supp-ts](https://www.npmjs.com/package/supp-ts) SDK — AI-powered customer support classification and routing.
 
 ## What's inside
 
@@ -13,8 +13,8 @@ A Next.js example project demonstrating the [supp-js](https://www.npmjs.com/pack
 
 ```bash
 # Clone
-git clone https://github.com/creayo/supp-js-starter
-cd supp-js-starter
+git clone https://github.com/supp-support/supp-ts-starter
+cd supp-ts-starter
 
 # Install
 npm install
@@ -59,10 +59,10 @@ src/
 
 ## Learn more
 
-- [supp-js SDK](https://www.npmjs.com/package/supp-js) — full SDK documentation
+- [supp-ts SDK](https://www.npmjs.com/package/supp-ts) — full SDK documentation
 - [Supp Docs](https://supp.support/docs) — widget, API reference, routing, integrations
-- [MCP Server Docs](https://github.com/creayo/supp-mcp-docs) — manage Supp via AI agents
+- [MCP Server Docs](https://github.com/supp-support/mcp-docs) — manage Supp via AI agents
 
 ## License
 
-MIT
+PolyForm Noncommercial 1.0.0
