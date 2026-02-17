@@ -65,4 +65,4 @@ src/
 
 ## License
 
-PolyForm Noncommercial 1.0.0
+CC BY-SA 4.0
