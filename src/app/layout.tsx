@@ -3,7 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Supp JS Starter",
+  title: "Supp TS Starter",
   description:
     "Example project using the supp-ts SDK — AI-powered customer support classification and routing",
 };
