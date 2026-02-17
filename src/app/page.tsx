@@ -278,8 +278,9 @@ const result = await supp.classify(message);
         <div style={styles.sectionHeader}>
           <h2 style={styles.sectionTitle}>Widget Integration</h2>
           <p style={styles.sectionDesc}>
-            The Supp chat widget is loaded in this page&apos;s layout. Look for it in
-            the bottom-right corner. It uses your publishable key.
+            Add the Supp chat widget to any page. Set{" "}
+            <code>NEXT_PUBLIC_SUPP_PUBLISHABLE_KEY</code> in your{" "}
+            <code>.env</code> file to enable it.
           </p>
         </div>
         <div style={{ padding: "1.5rem" }}>
